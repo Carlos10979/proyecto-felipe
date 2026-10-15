@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ARTEA: objetos personalizados para expresar tu mundo." />
+  <title>ARTEA - Hecho para ti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <nav class="nav wrap" aria-label="Navegación principal">
+    <a class="brand" href="#inicio" aria-label="ARTEA inicio"><span class="brand-cloud">✦</span>ARTEA</a>
+    <button class="menu-button" aria-expanded="false" aria-controls="menu">Menú <span>+</span></button>
+    <div class="nav-links" id="menu">
+      <a href="#propuesta">Nuestra esencia</a><a href="#crea">Personaliza</a><a href="#catalogo">Catálogo</a>
+    </div>
+  </nav>
+
+  <main id="inicio">
+    <section class="hero wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> MERCHANDISING CON IDENTIDAD</p>
+        <h1>Tu mundo,<br><em>hecho objeto.</em></h1>
+        <p class="lead">En ARTEA convertimos gustos, fandoms e ideas en piezas únicas que se sienten tuyas.</p>
+        <div class="hero-actions"><a class="button primary" href="#crea">Crear mi idea <b>→</b></a><a class="text-link" href="#catalogo">Ver lo que hacemos <span>↓</span></a></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Composición visual de productos ARTEA">
+        <div class="sun"></div><div class="doodle star-a">✦</div><div class="doodle star-b">✳</div>
+        <div class="hero-card card-one"><span>PERSONALIZA</span><strong>tu historia</strong></div>
+        <div class="hero-card card-two"><span>HECHO</span><strong>con cariño</strong></div>
+        <div class="product-orb"><img src="assets/Parilla de contenido (14).png" alt="Llaveros personalizados de ARTEA" /></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+      <a class="scroll-cue" href="#propuesta">baja y descubre <span>↓</span></a>
+    </section>
+
+    <section id="propuesta" class="statement">
+      <div class="wrap statement-grid">
+        <p class="section-label">01 / NUESTRA ESENCIA</p>
+        <div class="reveal"><h2>No vendemos cosas.<br>Hacemos <em>pedacitos de ti.</em></h2>
+          <p>ARTEA nace para escapar de lo genérico. Creemos que un póster, sticker, llavero o maceta puede ser una pequeña declaración de quién eres.</p></div>
+        <div class="pillars reveal"><article><b>01</b><h3>Personal</h3><p>Diseños que hablan tu idioma, tus gustos y tu estética.</p></article><article><b>02</b><h3>Creativo</h3><p>Ideas con color, carácter y detalles que sorprenden.</p></article><article><b>03</b><h3>Hecho con cuidado</h3><p>Piezas pensadas para que quieras verlas todos los días.</p></article></div>
+      </div>
+    </section>
+
+    <section id="crea" class="maker wrap">
+      <div class="maker-heading reveal"><p class="section-label">02 / JUEGA CON LA IDEA</p><h2>Imagina. Combina.<br><em>Hazlo tuyo.</em></h2><p>Prueba una pequeña mezcla de vibes. Es solo el comienzo: tú pones la idea y nosotros la llevamos al objeto.</p></div>
+      <div class="customizer reveal">
+        <div class="preview-panel" id="previewPanel"><div class="preview-sticker">✦<span id="previewText">tu idea aquí</span>✦</div><div class="spark s1">✦</div><div class="spark s2">♥</div></div>
+        <div class="controls">
+          <p class="control-title">Elige una vibra</p><div class="choices" role="group" aria-label="Elige una vibra"><button class="choice active" data-theme="mint">Menta pop</button><button class="choice" data-theme="coral">Coral cool</button><button class="choice" data-theme="night">Noche dreamy</button></div>
+          <label for="idea">Ponle una frase</label><input id="idea" maxlength="20" placeholder="ej. mi universo" />
+          <button class="button primary make-button" id="makeButton">Ver mi mini diseño <b>↗</b></button>
+          <small>Una muestra visual inspirada en tu idea.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="catalog">
+      <div class="wrap"><div class="catalog-header reveal"><p class="section-label">03 / HECHO PARA MOSTRARTE</p><h2>Pequeñas piezas.<br><em>Gran personalidad.</em></h2><p>Explora algunas formas en que tu identidad puede salir del moodboard.</p></div>
+        <div class="products">
+          <article class="product product-wide reveal"><img src="assets/artea-catalog.png" alt="Pósters, stickers y llaveros de ARTEA"/><div class="product-caption"><span>01</span><h3>Detalles que cuentan historias</h3><p>Stickers, llaveros y composiciones para llevar contigo.</p></div></article>
+          <article class="product reveal"><img src="assets/artea-pots.png" alt="Macetas decoradas a mano"/><div class="product-caption"><span>02</span><h3>Macetas con mood</h3><p>Color para tu rincón favorito.</p></div></article>
+          <article class="product reveal"><img src="assets/artea-poster.png" alt="Pósteres personalizados"/><div class="product-caption"><span>03</span><h3>Pósters que se quedan</h3><p>Tu pared también puede hablar de ti.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience"><div class="wrap experience-grid"><div class="experience-card reveal"><span class="mini-cloud">✦</span><p class="section-label">EXPERIENCIA ARTEA</p><h2>Una idea puede empezar con un “¿y si...?”</h2><p>Cuéntanos lo que te gusta. Juntos buscamos la forma, el color y el detalle que lo vuelven inolvidable.</p><a class="button dark" href="#inicio">Volver arriba <b>↑</b></a></div><div class="big-word" aria-hidden="true">ARTEA</div></div></section>
+  </main>
+  <footer><div class="wrap"><a class="brand" href="#inicio"><span class="brand-cloud">✦</span>ARTEA</a><p>Hecho para expresar lo que te hace tú.</p><span>© 2026 ARTEA</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
